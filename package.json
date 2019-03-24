@@ -1,0 +1,27 @@
+{
+  "name": "ts-babel-tslint-node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir dist --extensions \".ts,.tsx\"",
+    "start": "babel-node ./src/index.ts --extensions \".ts,.tsx\"",
+    "check-types": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "prettier": "^1.16.4",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.4000"
+  }
+}

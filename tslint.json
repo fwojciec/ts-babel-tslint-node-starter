@@ -1,0 +1,24 @@
+{
+  "extends": ["tslint-config-airbnb", "tslint-config-prettier"],
+  "linterOptions": {
+    // "exclude": ["node_modules/**/*.ts"],
+    "include": ["src/**/*.ts"]
+  },
+  "rules": {
+    // "arrow-parens": false,
+    // "interface-name": false,
+    // "jsx-boolean-value": false,
+    // "jsx-no-lambda": false,
+    // "jsx-no-multiline-js": false,
+    // "max-line-length": false,
+    // "member-access": [true, "no-public"],
+    "no-console": false,
+    // "no-unused-expression": [true, "allow-fast-null-checks"],
+    // "object-literal-sort-keys": false,
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"]
+    // "ordered-imports": false,
+    // "trailing-comma": false,
+    // "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"]
+  }
+}
